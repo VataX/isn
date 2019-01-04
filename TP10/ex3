@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+def decodbin(s):
+    s=""
+    for i in n:
+        s= s + 0*2^(len(n)-i+1)
+    return s
+
+n=str(input("sofodsf: "))
+a=decodbin(n)
+print(a)

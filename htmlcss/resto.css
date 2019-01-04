@@ -1,0 +1,84 @@
+header{
+    background-image: url("images/restaurant2.jpg");
+    background-size: 100%;
+    max-width: 90% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+main{
+    background-color: rgb(255, 215, 169);
+    max-width: 90% ;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+main section,main aside{
+    justify-content: space-between;
+}
+
+footer{
+    background-color: rgb(255, 193, 100);
+    max-width: 90% ;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2{
+    color: rgb(0, 0, 0); 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 193, 100); 
+    text-transform: uppercase; 
+    font-size:28px; font-weight: lighter; 
+    padding: 5px 10px;
+}
+
+body{
+    line-height: 1.5
+}
+
+ul{
+    display: flex; list-style-type: none
+}
+
+li{
+    margin-right:15px;
+}
+
+nav a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav a:hover{
+    color: orangered;
+}
+
+img main section{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+main section{
+    padding-right: 20px;
+    border-right-style: solid;
+    border-right: 3px;
+}
+
+main aside{
+    padding-left: 20px;
+}
+
+footer li, footer p{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

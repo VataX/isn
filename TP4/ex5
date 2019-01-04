@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+
+j=int(input("Saisissez un jour"))
+m=int(input("Saisissez un mois"))
+
+while(i<= 31 ):
+    print(j,"/",m,"/",jm)
